@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade Prática 10 - Containers com BootStrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg" style="background-color: rgb(124, 0, 240);">
+            <div class="container-fluid">
+              <h1 class="navbar-brand">Containers com BootStrap</h1>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#oQue">O que são?</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#paraQue">Para que servem?</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#comoUsar">Como usá-los?</a>
+                  </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <section class="container-fluid" style="background-image: url(https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-social.png); background-repeat: no-repeat; background-size: cover; background-position: center; height: 500px;"></section>
+    <section class="container-fluid bg-light text-center p-3" id="oQue">
+        <div>
+            <h2>O que são Containers com Bootstrap?</h2>
+            <div class="container">
+                <p>Os containers são elementos essenciais no framework Bootstrap, amplamente utilizado no desenvolvimento web. Em termos simples, um container é um elemento de layout que ajuda a estruturar e organizar o conteúdo em uma página da web. No Bootstrap, os containers são usados para criar uma grade flexível que se adapta automaticamente ao tamanho da tela do usuário.</p>
+                <p>
+                Os containers Bootstrap vêm em dois tipos principais: container e container-fluid. O container padrão tem uma largura máxima fixa, o que o torna adequado para criar layouts com largura fixa, enquanto o container-fluid se estende por toda a largura da tela, perfeito para layouts de largura total.</p>
+                <p>
+                Ao usar containers Bootstrap, os desenvolvedores podem garantir que seus sites sejam responsivos e tenham uma aparência consistente em uma variedade de dispositivos, desde telas de desktop até smartphones e tablets.</p>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section class="container-fluid bg-light text-center p-3" id="paraQue">
+        <div>
+            <h2>Para que servem os Containers com Bootstrap?</h2>
+            <div class="container">
+                <p>Os containers com Bootstrap servem para criar layouts responsivos e consistentes em sites e aplicativos da web. Eles desempenham um papel fundamental na criação de grids e ajudam a organizar o conteúdo de forma eficaz. Aqui estão algumas das principais funções dos containers Bootstrap:</p>
+                <div class="text-start">
+                    <ol>
+                        <li><strong>Layout Responsivo:</strong> Os containers ajudam a garantir que o conteúdo se adapte ao tamanho da tela do usuário, criando layouts responsivos que funcionam bem em dispositivos de diferentes tamanhos.</li>
+                        <li><strong>Organização de Conteúdo:</strong> Eles fornecem uma estrutura lógica para organizar o conteúdo da página, facilitando a criação de seções, colunas e áreas distintas.</li>
+                        <li><strong>Consistência Visual:</strong> Os containers Bootstrap oferecem uma maneira padronizada de definir margens e espaçamentos, garantindo uma aparência visualmente coesa em todo o site.</li>
+                        <li><strong>Largura Flexível:</strong> O uso dos containers container-fluid permite criar layouts de largura total, ideais para páginas de destino e elementos de design impressionantes.</li>
+                    </ol>
+                </div>
+                <p>Em resumo, os containers Bootstrap são ferramentas fundamentais para desenvolvedores web que desejam criar sites modernos e responsivos de forma eficiente.</p>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section class="container-fluid bg-light text-center p-3" id="comoUsar">
+        <div>
+            <h2>Como usar Containers com Bootstrap?</h2>
+            <div class="container">
+                <p>Usar containers com Bootstrap é simples e eficaz. Aqui estão os passos básicos para começar:</p>
+                <div class="text-start">
+                    <ol>
+                        <li><strong>Inclua o Bootstrap:</strong> Primeiro, certifique-se de que o Bootstrap esteja incluído em seu projeto. Você pode fazer isso baixando os arquivos do Bootstrap ou vinculando à versão hospedada na web.</li>
+                        <li><strong>Escolha um tipo de Container:</strong> Decida se deseja usar um container padrão ou um container-fluid, dependendo do tipo de layout que deseja criar.</li>
+                        <li><strong>Estruture seu HTML:</strong> Use a estrutura de containers em seu HTML. Por exemplo, para um container padrão, você pode usar <code>&ltdiv class="container"&gt</code> e para um container de largura total, use <code>&ltdiv class="container-fluid"&gt.</code></li>
+                        <li><strong>Adicione Conteúdo:</strong> Coloque seu conteúdo dentro dos containers. Você pode dividir o conteúdo em colunas usando as classes de grade Bootstrap, como <code>'col-md-6'</code>, para criar layouts flexíveis.</li>
+                        <li><strong>Estilize e Personalize:</strong> Aplique estilos e personalizações conforme necessário para atender às necessidades do seu projeto. Você pode usar classes Bootstrap ou adicionar seu próprio CSS.</li>
+                    </ol>
+                    <p>Com esses passos básicos, você estará no caminho certo para usar efetivamente os containers Bootstrap em seu desenvolvimento web e criar layouts responsivos e visualmente atraentes.</p>
+                </div>
+                <p>Em resumo, os containers Bootstrap são ferramentas fundamentais para desenvolvedores web que desejam criar sites modernos e responsivos de forma eficiente.</p>
+            </div>
+        </div>
+    </section>
+    <footer class="container-fluid text-center p-2" style="background-color: rgb(124, 0, 240); color: black;">
+        <p>Desenvolvido por Nicolas Constancio. © 2023</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
